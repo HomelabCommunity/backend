@@ -5,11 +5,5 @@ cf_dns_records = [
     "name": "guide",
     "value": "home-lab-guides.netlify.app",
     "type": "CNAME"
-  },
-  # TODO: remove test
-  {
-    "name": "test",
-    "value": "home-lab-guides.netlify.app",
-    "type": "CNAME"
   }
 ]

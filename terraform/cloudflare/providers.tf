@@ -1,4 +1,10 @@
 terraform {
+  cloud {
+    organization = "homelab_community"
+    workspaces {
+      name = "cloudflare"
+    }
+  }
   required_providers {
     cloudflare = {
       source = "cloudflare/cloudflare"
